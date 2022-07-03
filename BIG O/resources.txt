@@ -1,0 +1,8 @@
+github solutions link : https://github.com/theja-m/Data-Structures-and-Algorithms
+What is a good code : 
+    1. Readable  : Can other read your code.
+    2. Scalable  : BIG O measures is your code scalable
+
+
+O(n) --> Linear Time For Loops , while loops through n items.
+O(1) --> Constant Time  , Grabing first itme or just one operation.Number of operations remains flat.
