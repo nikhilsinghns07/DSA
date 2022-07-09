@@ -1,27 +1,18 @@
-//Linear Time O(n)
-const nemo = ['nemo']
-const large = new Array(100).fill('nemo')
+// //Linear Time O(n)
+const nemo = ['Dhoni']
+// const large = new Array(100).fill('nemo')
+const names = ['Rohit','Dhawan','Kohli','Rahul','Dhoni','Pandaya','Jadeja','Bhuvi','Shami','Chahal','Bumrah']
 
 function findNemo(array)  {
-    let t0 = performance.now()
+    
     for(let i = 0;i<array.length; i++){
-        if (array[i] === 'nemo'){
-            console.log('Found Nemo')
+        if (array[i] === 'Dhoni'){
+            console.log('Found ')
         }
     }
-    let t1 = performance.now()
-    console.log('Call to find Nemo took' + (t1-t0) + 'ms')
 }
 
-// findNemo(large)
+findNemo(names)
 
 
-//Constant Time O(1)
-const boxes = [0,1,2,3,4,5]
-
-function logFirstTwoBoxes(boxes){
-    console.log(boxes[0])
-    console.log(boxes[1])
-}
-
-logFirstTwoBoxes(boxes)
+// O(n) As the number of inputs increase the number of operations increase. Also called linear time.
